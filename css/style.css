@@ -1,0 +1,77 @@
+/**FUENTES*/
+@font-face {
+    font-family: "SpaceMono-Regular";
+    src: url('fonts/SpaceMono-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Inconsolata-VariableFont_wdth,wght";
+    src: url('fonts/Inconsolata-VariableFont_wdth,wght.ttf');
+}
+/*GENERALES*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    width: 100%;
+    background: url('../img/pattern.png');
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+/*HEADER*/
+
+header{
+    width: 100%;
+}
+
+h3{
+    margin-top: 40px;
+    margin-left: 77px;
+    font-family: 'Inconsolata-VariableFont_wdth,wght';
+    font-size: 25px;
+}
+
+/*CONTENDIO*/
+
+#img img {
+    width: 40%;
+    height: 447.43px;
+    display: block;
+    float: left;
+    margin-top: 200px;
+    margin-left: 77px;
+}
+
+
+.texto h1{
+    font-family: 'SpaceMono-Regular';
+    position: absolute;
+    left: 649px;
+    margin-top: 200px;
+    margin-left: 118.78px;
+    font-size: 64px; 
+    line-height: 95px;
+    letter-spacing: -0.035em;
+}
+
+.texto p{
+    font-family: 'SpaceMono-Regular';
+    position: absolute;
+    top: 526px;
+    left: 649px;
+    margin-left: 119.78px;
+    font-size: 24px;
+    color: #4f4f4f;
+
+}
+
+.bottom{
+    
+    background: black;
+}
